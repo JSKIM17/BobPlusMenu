@@ -8,7 +8,7 @@
 GitHub에 다른 프로젝트가 있길래 기대했는데 사장된 프로젝트라 그냥 직접 제작함
 
 
-# 앱 화면 예시
+# 앱 화면 미리보기
 ![2024-09-19 101900](https://github.com/user-attachments/assets/9caef83c-acad-455a-ab7d-8edbfa1124be)
 
 
