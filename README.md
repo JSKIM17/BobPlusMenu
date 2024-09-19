@@ -7,13 +7,28 @@
 
 GitHub에 다른 프로젝트가 있길래 기대했는데 사장된 프로젝트라 그냥 직접 제작함
 
+
+
+
+
+
 # 앱 화면 예시
 ![2024-09-19 101900](https://github.com/user-attachments/assets/9caef83c-acad-455a-ab7d-8edbfa1124be)
 
 
 
+
+
+
+
+
 # Release
 https://github.com/JSKIM17/BPPMAP/releases/tag/build
+
+
+
+
+
 
 
 # 개발
@@ -30,16 +45,31 @@ NuGet: 패키지 관리
 HtmlAgilityPack: html 플러그인
 
 
+
+
+
+
+
 # 저작권 표시
 Freepik - 앱 아이콘
 
 https://blog.naver.com/babplus123 - 밥플러스 관련 이미지 전체
 
 
+
+
+
+
+
 # 작동 원리
 매일 첫 접속 시 밥플러스 블로그에 접근해 메뉴 이미지 크롤링 후 로컬에 저장
 
 접속 시 해당 일자로부터 일주일 전까지 저장된 이미지 제거
+
+
+
+
+
 
 
 # 진행 과정
@@ -52,6 +82,12 @@ https://blog.naver.com/babplus123 - 밥플러스 관련 이미지 전체
 24.09.19 ~ 구글 플레이 업로드를 위해 개발자 계정 생성중(커피값 수급을 위한 배너 광고 달 예정)
 
 ※구글 플레이 업로드 시 소스코드는 제거될 수 있음
+
+
+
+
+
+
 
 # 라이센스
 MIT
