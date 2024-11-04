@@ -13,8 +13,8 @@ public class NaverPostLoader : MonoBehaviour
 	public GameObject loadingIcon;
 	public Button myButton;
 	public string postNum;
-	string _head = "https://blog.naver.com/PostView.naver?blogId=babplus123";
-	string _tail = "redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false";
+	private string _head = "https://blog.naver.com/PostView.naver?blogId=babplus123";
+	private string _tail = "redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false";
 
 	public string targetURL = "";
 	public List<NaverURLInfo> infoList = new List<NaverURLInfo>();

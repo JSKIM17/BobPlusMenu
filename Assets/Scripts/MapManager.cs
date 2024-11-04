@@ -14,7 +14,7 @@ public class MapManager : MonoBehaviour
 	public List<NaverPostLoader> infoList = new List<NaverPostLoader>();
 	/*
 		1호점: 221697747131
-		2호점: 222378669083
+		2호점: 폐점(222378669083)
 		3호점: 221556102879
 		4호점: 223336115425
 		5호점: 222371212405

@@ -1692,6 +1692,10 @@ PrefabInstance:
       propertyPath: postNum
       value: 222378669083
       objectReference: {fileID: 0}
+    - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1708,7 +1712,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1716354822}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4801401111cccd46975d66d95627328, type: 3}
   m_Name: 
