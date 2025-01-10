@@ -714,6 +714,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1955050642}
     m_Modifications:
+    - target: {fileID: 1051795862049288077, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2205932174975918988, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -815,8 +819,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
+      propertyPath: head
+      value: https://blog.naver.com/PostView.naver?blogId=
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
       propertyPath: postNum
       value: 222371212405
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -946,6 +958,10 @@ PrefabInstance:
     - target: {fileID: 6245627512478328036, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
+      propertyPath: head
+      value: https://blog.naver.com/PostView.naver?blogId=
       objectReference: {fileID: 0}
     - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
       propertyPath: postNum
@@ -1214,6 +1230,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
+      propertyPath: head
+      value: https://blog.naver.com/PostView.naver?blogId=
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
       propertyPath: postNum
       value: 223112282256
       objectReference: {fileID: 0}
@@ -1244,7 +1264,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 586490547}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4801401111cccd46975d66d95627328, type: 3}
   m_Name: 
@@ -1349,7 +1369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1613484445}
   - component: {fileID: 1613484447}
-  - component: {fileID: 1613484446}
+  - component: {fileID: 1613484448}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1376,7 +1396,15 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1613484446
+--- !u!222 &1613484447
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613484444}
+  m_CullTransparentMesh: 1
+--- !u!114 &1613484448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1396,17 +1424,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB2E4\uC2DC \uBC1B\uAE30"
+  m_text: "\uB2E4\uC2DC\uBC1B\uAE30"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a3a24daf3830f94186d7805fff92353, type: 2}
+  m_sharedMaterial: {fileID: -1790356045929102235, guid: 8a3a24daf3830f94186d7805fff92353, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1423,15 +1451,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.35
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1459,20 +1487,12 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 10, y: 0, z: 10, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1613484447
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613484444}
-  m_CullTransparentMesh: 1
 --- !u!1 &1632369413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,12 +1709,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
+      propertyPath: head
+      value: https://blog.naver.com/PostView.naver?blogId=
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
+      propertyPath: blogId
+      value: lunchtoday112
+      objectReference: {fileID: 0}
+    - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
       propertyPath: postNum
-      value: 222378669083
+      value: 223612271278
       objectReference: {fileID: 0}
     - target: {fileID: 7137795208014483719, guid: 2db053a1957e12d46949e02a1b490bca, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1712,7 +1740,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1716354822}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e4801401111cccd46975d66d95627328, type: 3}
   m_Name: 

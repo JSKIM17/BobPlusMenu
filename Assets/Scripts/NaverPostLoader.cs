@@ -13,10 +13,10 @@ public class NaverPostLoader : MonoBehaviour
 	public GameObject loadingIcon;
 	public Button myButton;
 	public string postNum;
-	private string _head = "https://blog.naver.com/PostView.naver?blogId=babplus123";
-	private string _tail = "redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false";
+	public string head = "https://blog.naver.com/PostView.naver?blogId=";
+	public string blogId = "babplus123";
+	public string tail = "redirect=Dlog&widgetTypeCall=true&noTrackingCode=true&directAccess=false";
 
-	public string targetURL = "";
 	public List<NaverURLInfo> infoList = new List<NaverURLInfo>();
 	public static string TargetHost = "https://postfiles.pstatic.net";
 
@@ -45,14 +45,14 @@ public class NaverPostLoader : MonoBehaviour
 			myButton.interactable = true;
 		}
 		else {
-			Initialize($"{_head}&logNo={postNum}&{_tail}");
+			Initialize($"{head}{blogId}&logNo={postNum}&{tail}");
 		}
 	}
 
 
 	private void Initialize(string url)
 	{
-		targetURL = url;
+		string targetURL = url;
 		loadingIcon.gameObject.SetActive(true);
 		myButton.interactable = false;
 		StartCoroutine(GetBlogImageLink(targetURL, DownloadImages));
